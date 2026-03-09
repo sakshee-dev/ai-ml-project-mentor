@@ -1,0 +1,11 @@
+[project]
+name = "ai-ml-project-mentor"
+version = "0.1.0"
+description = "AI assistant for discovering datasets and building ML projects"
+authors = ["Sakshee Singh"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"

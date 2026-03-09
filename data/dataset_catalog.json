@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Titanic Survival Prediction",
+    "topic": "ml",
+    "subtopic": "tabular",
+    "difficulty": "beginner",
+    "task_type": "classification",
+    "dataset_size": "small",
+    "source": "Kaggle",
+    "description": "Predict survival of passengers based on demographic and travel features.",
+    "skills_learned": [
+      "data cleaning",
+      "feature engineering",
+      "classification",
+      "model evaluation"
+    ],
+    "recommended_models": [
+      "Logistic Regression",
+      "Random Forest"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Iris Classification",
+    "topic": "ml",
+    "subtopic": "tabular",
+    "difficulty": "beginner",
+    "task_type": "classification",
+    "dataset_size": "small",
+    "source": "Scikit-learn",
+    "description": "Classify iris flowers into species using petal and sepal measurements.",
+    "skills_learned": [
+      "classification basics",
+      "feature analysis",
+      "model comparison"
+    ],
+    "recommended_models": [
+      "Logistic Regression",
+      "Decision Tree"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "SMS Spam Detection",
+    "topic": "ai",
+    "subtopic": "nlp",
+    "difficulty": "beginner",
+    "task_type": "text classification",
+    "dataset_size": "small",
+    "source": "UCI / Kaggle",
+    "description": "Classify SMS messages as spam or ham.",
+    "skills_learned": [
+      "text preprocessing",
+      "vectorization",
+      "nlp classification"
+    ],
+    "recommended_models": [
+      "Naive Bayes",
+      "Logistic Regression"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "IMDB Sentiment Analysis",
+    "topic": "ai",
+    "subtopic": "nlp",
+    "difficulty": "intermediate",
+    "task_type": "text classification",
+    "dataset_size": "medium",
+    "source": "Kaggle",
+    "description": "Predict sentiment of movie reviews as positive or negative.",
+    "skills_learned": [
+      "nlp preprocessing",
+      "sentiment analysis",
+      "model tuning"
+    ],
+    "recommended_models": [
+      "Logistic Regression",
+      "LSTM",
+      "BERT"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MNIST Digit Classification",
+    "topic": "ai",
+    "subtopic": "computer vision",
+    "difficulty": "beginner",
+    "task_type": "image classification",
+    "dataset_size": "medium",
+    "source": "OpenML / Kaggle",
+    "description": "Classify handwritten digits from image pixels.",
+    "skills_learned": [
+      "image preprocessing",
+      "classification",
+      "neural networks"
+    ],
+    "recommended_models": [
+      "Logistic Regression",
+      "CNN"
+    ]
+  }
+]
