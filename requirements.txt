@@ -12,3 +12,4 @@ streamlit
 python-certifi-win32
 certifi
 urllib3
+psutil

@@ -1,0 +1,96 @@
+2026-03-16 15:14:16,279 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:14:16,280 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:14:16,281 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:14:16,281 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:14:16,282 - INFO - main.py:61 - Main process logger configured successfully 
+2026-03-16 15:14:16,287 - INFO - main.py:84 - ============================================================ 
+2026-03-16 15:14:16,288 - INFO - main.py:85 - AI ML Project Mentor starting... 
+2026-03-16 15:14:16,289 - INFO - main.py:86 - Application version: 1.0.0 
+2026-03-16 15:14:16,290 - INFO - main.py:87 - Last modified date: 03/16/2026 
+2026-03-16 15:14:16,291 - INFO - main.py:88 - Namespace: <default> 
+2026-03-16 15:14:16,291 - INFO - main.py:89 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:14:16,291 - INFO - main.py:90 - Python executable: c:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\github_personal\ai-ml-project-mentor\venv\Scripts\python.exe 
+2026-03-16 15:14:16,293 - INFO - main.py:91 - Application PID: 40884 
+2026-03-16 15:14:16,294 - INFO - main.py:92 - Streamlit app path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\ui\streamlit_app.py 
+2026-03-16 15:14:16,299 - INFO - main.py:202 - run_event_loop started 
+2026-03-16 15:14:16,299 - INFO - main.py:154 - Launching Streamlit app... 
+2026-03-16 15:14:16,300 - INFO - main.py:155 - Command: c:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\github_personal\ai-ml-project-mentor\venv\Scripts\python.exe -m streamlit run C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\ui\streamlit_app.py 
+2026-03-16 15:14:16,335 - INFO - main.py:164 - Streamlit process started with pid=45244 
+2026-03-16 15:14:27,298 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:14:27,298 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:14:27,299 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:14:27,299 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:14:27,300 - INFO - streamlit_app.py:26 - [UI] Streamlit process started 
+2026-03-16 15:14:27,301 - INFO - streamlit_app.py:295 - [UI] Streamlit app initializing 
+2026-03-16 15:14:28,128 - INFO - streamlit_app.py:43 - [UI] Session state initialized 
+2026-03-16 15:14:48,721 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:14:48,722 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:14:48,723 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:14:48,724 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:14:48,725 - INFO - streamlit_app.py:26 - [UI] Streamlit process started 
+2026-03-16 15:14:48,725 - INFO - streamlit_app.py:295 - [UI] Streamlit app initializing 
+2026-03-16 15:14:48,727 - INFO - streamlit_app.py:43 - [UI] Session state initialized 
+2026-03-16 15:14:50,954 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:14:50,956 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:14:50,957 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:14:50,957 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:14:50,958 - INFO - streamlit_app.py:26 - [UI] Streamlit process started 
+2026-03-16 15:14:50,960 - INFO - streamlit_app.py:295 - [UI] Streamlit app initializing 
+2026-03-16 15:14:50,962 - INFO - streamlit_app.py:43 - [UI] Session state initialized 
+2026-03-16 15:14:50,975 - INFO - streamlit_app.py:320 - [UI] Search button clicked | query=xgboost | level=beginner | modality=any | source=openml | limit=10 
+2026-03-16 15:14:50,977 - INFO - dataset_aggregator.py:14 - [Aggregator] DatasetAggregatorService initialized successfully 
+2026-03-16 15:14:50,980 - INFO - dataset_aggregator.py:35 - [Aggregator] search_all_datasets start | query=xgboost | level=beginner | modality=any | source=openml | limit=10 
+2026-03-16 15:14:50,980 - INFO - dataset_aggregator.py:54 - [Aggregator] active providers=['OpenML'] 
+2026-03-16 15:14:50,982 - INFO - dataset_aggregator.py:58 - [Aggregator] Calling provider=OpenML 
+2026-03-16 15:14:50,982 - INFO - openml_service.py:51 - [OpenML] search_datasets start | query=xgboost | skill_level=beginner | modality=any | max_results=10 
+2026-03-16 15:14:50,983 - INFO - openml_service.py:224 - [OpenML] _retrieve_candidates start | query=xgboost 
+2026-03-16 15:14:50,991 - INFO - _api_calls.py:112 - Starting [get] request for the URL https://www.openml.org/api/v1/xml/data/list/limit/10000/offset/0 
+2026-03-16 15:14:54,129 - INFO - _api_calls.py:124 - 3.1355836s taken for [get] request for the URL https://www.openml.org/api/v1/xml/data/list/limit/10000/offset/0 
+2026-03-16 15:14:54,672 - INFO - openml_service.py:232 - [OpenML] list_datasets total rows=6383 
+2026-03-16 15:14:54,710 - INFO - openml_service.py:261 - [OpenML] direct metadata matches=1 
+2026-03-16 15:14:54,711 - INFO - openml_service.py:264 - [OpenML] algorithm-style query detected; augmenting candidate pool for query=xgboost 
+2026-03-16 15:14:54,718 - INFO - openml_service.py:285 - [OpenML] augmented supervised/tabular candidates=3615 
+2026-03-16 15:14:54,730 - INFO - openml_service.py:290 - [OpenML] combined candidate pool=3616 
+2026-03-16 15:14:54,732 - INFO - openml_service.py:60 - [OpenML] retrieved candidate rows=3616 
+2026-03-16 15:14:54,733 - INFO - openml_service.py:307 - [OpenML] normalizing rows=3616 
+2026-03-16 15:14:57,950 - INFO - openml_service.py:63 - [OpenML] normalized candidates=3616 
+2026-03-16 15:14:57,951 - INFO - openml_service.py:356 - [OpenML] ranking candidates=3616 for query=xgboost skill=beginner modality=any 
+2026-03-16 15:14:57,986 - INFO - openml_service.py:398 - [OpenML] ranking complete | top5=[{'rank': 1, 'id': 2, 'name': 'anneal', 'final': 0.7875}, {'rank': 2, 'id': 3, 'name': 'kr-vs-kp', 'final': 0.7875}, {'rank': 3, 'id': 6, 'name': 'letter', 'final': 0.7875}, {'rank': 4, 'id': 8, 'name': 'liver-disorders', 'final': 0.7875}, {'rank': 5, 'id': 9, 'name': 'autos', 'final': 0.7875}] 
+2026-03-16 15:14:57,987 - INFO - openml_service.py:66 - [OpenML] ranked candidates=3616 
+2026-03-16 15:14:57,989 - INFO - openml_service.py:69 - [OpenML] top recommendation | id=2 | name=anneal | final_score=0.7875 
+2026-03-16 15:14:57,990 - INFO - dataset_aggregator.py:68 - [Aggregator] provider=OpenML returned result_count=10 
+2026-03-16 15:14:57,990 - INFO - dataset_aggregator.py:85 - [Aggregator] merged result_count=10 
+2026-03-16 15:14:57,991 - INFO - dataset_aggregator.py:89 - [Aggregator] top_results=[{'rank': 1, 'dataset_id': 2, 'name': 'anneal', 'score': 0.7875}, {'rank': 2, 'dataset_id': 3, 'name': 'kr-vs-kp', 'score': 0.7875}, {'rank': 3, 'dataset_id': 6, 'name': 'letter', 'score': 0.7875}, {'rank': 4, 'dataset_id': 8, 'name': 'liver-disorders', 'score': 0.7875}, {'rank': 5, 'dataset_id': 9, 'name': 'autos', 'score': 0.7875}] 
+2026-03-16 15:14:57,992 - INFO - streamlit_app.py:348 - [UI] Search complete | result_count=10 | warnings=[] 
+2026-03-16 15:14:57,993 - INFO - streamlit_app.py:73 - [UI] Rendering search results | count=10 
+2026-03-16 15:15:37,192 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:15:37,193 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:15:37,195 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:15:37,196 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:15:37,197 - INFO - streamlit_app.py:26 - [UI] Streamlit process started 
+2026-03-16 15:15:37,198 - INFO - streamlit_app.py:295 - [UI] Streamlit app initializing 
+2026-03-16 15:15:37,201 - INFO - streamlit_app.py:43 - [UI] Session state initialized 
+2026-03-16 15:15:37,221 - INFO - streamlit_app.py:73 - [UI] Rendering search results | count=10 
+2026-03-16 15:15:37,238 - INFO - streamlit_app.py:132 - [UI] Dataset selected | id=2 | name=anneal | source=openml 
+2026-03-16 15:15:37,240 - INFO - dataset_aggregator.py:14 - [Aggregator] DatasetAggregatorService initialized successfully 
+2026-03-16 15:15:37,243 - INFO - dataset_aggregator.py:117 - [Aggregator] get_dataset_details start | dataset_id=2 | source=openml | preview_rows=10 
+2026-03-16 15:15:37,244 - INFO - openml_service.py:91 - [OpenML] get_dataset_details start | dataset_id=2 
+2026-03-16 15:15:37,498 - INFO - dataset.py:562 - pickle write anneal 
+2026-03-16 15:15:37,520 - INFO - openml_service.py:107 - [OpenML] dataset loaded | id=2 | name=anneal | shape=(898, 39) 
+2026-03-16 15:15:37,663 - INFO - openml_service.py:618 - [OpenML] analytics built | id=2 | name=anneal | rows=898 | cols=39 | candidate_targets=['class', 'family', 'product-type', 'formability', 'surface-quality'] | problem_type=classification 
+2026-03-16 15:15:37,677 - INFO - dataset_aggregator.py:129 - [Aggregator] get_dataset_details success | dataset_id=2 
+2026-03-16 15:15:37,678 - INFO - streamlit_app.py:154 - [UI] Dataset details loaded | dataset_id=2 
+2026-03-16 15:15:37,771 - INFO - logger_setup.py:32 - Logging configured successfully in current process 
+2026-03-16 15:15:37,773 - INFO - logger_setup.py:33 - Project root: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor 
+2026-03-16 15:15:37,773 - INFO - logger_setup.py:34 - Logger config path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\logger_config.json 
+2026-03-16 15:15:37,775 - INFO - logger_setup.py:35 - Log file path: C:\Users\Sakshee.Singh\OneDrive - Nabors\My Documents\GITHUB_PERSONAL\ai-ml-project-mentor\log\log.txt 
+2026-03-16 15:15:37,776 - INFO - streamlit_app.py:26 - [UI] Streamlit process started 
+2026-03-16 15:15:37,778 - INFO - streamlit_app.py:295 - [UI] Streamlit app initializing 
+2026-03-16 15:15:37,780 - INFO - streamlit_app.py:43 - [UI] Session state initialized 
+2026-03-16 15:15:37,788 - INFO - streamlit_app.py:73 - [UI] Rendering search results | count=10 
+2026-03-16 15:15:37,972 - INFO - streamlit_app.py:174 - [UI] Rendering dataset details | name=anneal 
+2026-03-16 15:17:23,084 - INFO - main.py:135 - Termination signal detected 
+2026-03-16 15:17:23,085 - INFO - main.py:126 - Graceful shutdown initiated 
+2026-03-16 15:17:24,629 - INFO - main.py:169 - Streamlit exited normally with code=0 
+2026-03-16 15:17:24,629 - INFO - main.py:72 - Application terminated 
+2026-03-16 15:17:24,630 - INFO - main.py:73 - ------------------------------------------------------------ 

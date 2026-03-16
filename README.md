@@ -26,7 +26,7 @@ It may mean:
 So the agent must interpret the query semantically, not literally.
 
 Phase 2: Search all candidate datasets from sources
-Separate retrieval from recommendation.
+Separate retrieval from recommendation. ACTIVE DECISION-MAKER during the retrieval process.
 
 Phase 3: Normalize and enrich metadata
 Different sources return different fields. Normalize them into a common schema
