@@ -1,10 +1,19 @@
 import logging
 import openml
-
 from app.models.dataset import DatasetItem
 from app.services.ranking_service import infer_size
 
 logger = logging.getLogger(__name__)
+
+QUERY_EXPANSIONS = {
+    "nlp": ["nlp", "text", "tweet", "tweets", "review", "reviews", "sentiment", "spam", "language", "qa", "question"],
+    "cv": ["cv", "image", "vision", "photo", "photos", "face", "xray", "mnist"],
+    "tabular": ["tabular", "classification", "regression", "structured"],
+}
+
+def _get_search_terms(query: str) -> list[str]:
+    q = query.lower().strip()
+    return QUERY_EXPANSIONS.get(q, [q])
 
 
 def _safe_int(value):
@@ -19,11 +28,24 @@ def search_openml_datasets(query: str, limit: int = 20) -> list[DatasetItem]:
         df = openml.datasets.list_datasets(output_format="dataframe")
     except Exception as exc:
         logger.exception("OpenML request failed: %s", exc)
-        raise RuntimeError("OpenML connection failed") from exc
+        return []
 
-    q = query.lower().strip()
-    mask = df["name"].astype(str).str.lower().str.contains(q, na=False)
+    search_terms = _get_search_terms(query)
+    # Search only by dataset name for now, but with expanded terms
+    name_series = df["name"].astype(str).str.lower()
+    mask = name_series.str.contains(search_terms[0], na=False)
+    for term in search_terms[1:]:
+        mask = mask | name_series.str.contains(term, na=False)
+
     filtered = df[mask].head(limit)
+    logger.info("Matched OpenML dataset names: %s", filtered["name"].tolist())
+
+    logger.info(
+        "OpenML query='%s' expanded_terms=%s matched_rows=%s",
+        query,
+        search_terms,
+        len(filtered),
+    )
 
     results = []
     for _, row in filtered.iterrows():
@@ -46,5 +68,5 @@ def search_openml_datasets(query: str, limit: int = 20) -> list[DatasetItem]:
                 tags=["openml", "ml", "tabular"],
             )
         )
-
+    logger.info("OpenML returned %s results for query='%s'", len(results), query)
     return results
