@@ -16,14 +16,19 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Mac
-.DS_Store
-
 # VSCode
 .vscode/
+.DS_Store
+Thumbs.db
 
 # Logs
+logs/
 *.log
+
+# Lock / runtime files
+lock/
+**/lock/
+**/lock.txt
 
 # Build
 build/
@@ -33,9 +38,6 @@ dist/
 # Data files
 *.csv
 *.parquet
-
-# OS files
-Thumbs.db
 
 # Temporary files
 *.tmp
